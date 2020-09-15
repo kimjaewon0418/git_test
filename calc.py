@@ -1,10 +1,10 @@
 # add program
-def sum_function( n1 , n2):  # µÎ Á¤¼öÀÇ ÇÕÀ» ±¸ÇÏ´Â ÇÔ¼ö
+def sum_function( n1 , n2):  # ë‘ ì •ìˆ˜ì˜ í•©ì„ êµ¬í•˜ëŠ” í•¨ìˆ˜
     return n1 + n2
 
-num1 = int ( input(¡° input number 1¡± ) )
-num2 = int ( input(¡° input number 2¡± ) )
+num1 = int ( input(â€œ input number 1â€ ) )
+num2 = int ( input(â€œ input number 2â€ ) )
 
 sum = sum_function( num1 , num2)
 
-print(num1 , ¡°+¡± , num2 ,  ¡°=¡± , sum )
+print(num1 , â€œ+â€ , num2 ,  â€œ=â€ , sum )
